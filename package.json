@@ -1,0 +1,22 @@
+{
+  "name": "pies",
+  "version": "0.0.0",
+  "description": "Javascript Pie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kevinfrommelt-wf/pies.git"
+  },
+  "keywords": [
+    "Pie"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinfrommelt-wf/pies/issues"
+  },
+  "homepage": "https://github.com/kevinfrommelt-wf/pies"
+}

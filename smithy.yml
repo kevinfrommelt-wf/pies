@@ -1,19 +1,7 @@
-project: python
-runtime: 2.7
-
-requirements:
-  - requirements.txt
-  - requirements_dev.txt
-
-env:
-  - LIKES=PIES
-  - EATS=TASTY_PIES
-  - EAT_PIES_SLOWLY=1
+project: node
+language: javascript
 
 script:
-  - nosetests
-  - python setup.py sdist
   - 'echo "TEST REPORTS DIR: $TEST_REPORTS_DIR"'
   - cp test-xml/*.xml $TEST_REPORTS_DIR/
-  - find . -type f -ls
   - ls -al $TEST_REPORTS_DIR
