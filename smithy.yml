@@ -2,6 +2,7 @@ project: node
 language: javascript
 
 script:
-  - 'echo "TEST REPORTS DIR: $TEST_REPORTS_DIR"'
-  - cp test-xml/*.xml $TEST_REPORTS_DIR/
-  - ls -al $TEST_REPORTS_DIR
+  - echo "Who doesn't like pie?"
+
+test_reports:
+  - test-xml/*.xml
