@@ -17,3 +17,6 @@ script:
 
 test_reports:
   - test-xml/*.xml
+
+artifacts:
+  - test-xml/*.xml
