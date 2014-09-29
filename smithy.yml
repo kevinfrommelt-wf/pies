@@ -13,6 +13,7 @@ env:
 script:
   - nosetests
   - python setup.py sdist
+  - echo "Test"
 
 test_reports:
   - test-xml/*.xml
