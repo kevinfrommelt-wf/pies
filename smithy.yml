@@ -3,6 +3,7 @@ runtime: 2.7
 
 requirements:
   - requirements.txt
+  - requirements_dev.txt
 
 script:
   - pip list
