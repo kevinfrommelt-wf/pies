@@ -16,7 +16,6 @@ setup_args = dict(
     version='0.0.1',
     packages=find_packages(),
     namespace_packages=['pies'],
-    install_requires=get_install_requires(),
     entry_points={
         'console_scripts': [
             'pies-test=pies.util:say_hello'
