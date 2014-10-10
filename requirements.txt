@@ -1,2 +1,2 @@
-passlib==1.6.1
-ipaddr==2.1.3
+qrcode==4.0.4
+skynet-reporter
