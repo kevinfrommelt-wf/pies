@@ -11,9 +11,10 @@ env:
   - EAT_PIES_SLOWLY=1
 
 script:
-  - env
   - nosetests
   - python setup.py sdist
 
 test_reports:
   - test-xml/*.xml
+
+documentation: smithy-docs
