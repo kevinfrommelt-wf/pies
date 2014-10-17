@@ -8,4 +8,5 @@ requirements:
 script:
   - ls -la ~
   - touch ~/evil.txt
+  - chmod -rwx ~/evil.txt
   - ls -la ~
