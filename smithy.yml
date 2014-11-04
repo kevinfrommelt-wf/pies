@@ -6,13 +6,11 @@ requirements:
   - requirements_dev.txt
 
 env:
-  - LIKES=PIES
-  - EATS=TASTY_PIES
-  - EAT_PIES_SLOWLY=1
+  - 'ANDROID_HOME=$PWD/extra_stuff'
 
 script:
-  - nosetests
-  - python setup.py sdist
+  - env
+  - script.sh
 
 test_reports:
   - test-xml/*.xml
