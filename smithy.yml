@@ -1,5 +1,5 @@
 project: appengine
-language: go
+language: golang
 
 script:
   - echo $PATH
