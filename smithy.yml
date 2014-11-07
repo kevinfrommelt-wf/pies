@@ -3,6 +3,6 @@ language: go
 
 script:
   - echo $PATH
-  - which goapp
   - ls -la /usr/local/go_appengine
   - ls -la /usr/local/go*
+  - which goapp
