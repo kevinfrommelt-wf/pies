@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="foobar" tests="23" time="0.449413776398">
+<testcase classname="foobar.TestCase" name="foobar_test1" time="0.0166261196136">
+</testcase>
+</testsuite>
