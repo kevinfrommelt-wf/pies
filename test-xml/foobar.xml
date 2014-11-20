@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<testsuite errors="0" failures="0" name="foobar" tests="16" time="0.449413776398">
+<testsuite errors="0" failures="0" name="foobar" tests="17" time="0.449413776398">
 <testcase classname="foobar.TestCase" name="foobar_test1" time="0.0166261196136">
 </testcase>
 <testcase classname="foobar.TestCase" name="foobar_test2" time="0.0166261196136">
@@ -31,5 +31,7 @@
 <testcase classname="foobar.TestCase" name="foobar_test15" time="0.0166261196136">
 </testcase>
 <testcase classname="foobar.TestCase" name="foobar_test16" time="0.0166261196136">
+</testcase>
+<testcase classname="foobar.TestCase" name="foobar_test17" time="0.0166261196136">
 </testcase>
 </testsuite>
