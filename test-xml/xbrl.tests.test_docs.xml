@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite skip="0" errors="0" failures="0" name="xbrl.tests.test_docs" tests="1" time="0.000717878341675">
-<testcase classname="xbrl.tests.test_docs.XBRLBaseDocTestCase" name="test_handle_unknown_element" time="0.000717878341675">
-</testcase>
-</testsuite>

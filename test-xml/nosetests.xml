@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nosetests" tests="220" errors="0" failures="0" skip="0">
+<testcase classname="smithy.core.tests.api.test_application.ApplicationTestCase" name="test_duplicate_name" time="0.066">
+</testcase>
+<testcase classname="smithy.core.tests.api.test_application.GetByNameTestCase" name="test_get_name" time="0.022">
+</testcase>
+<testcase classname="smithy.core.tests.api.test_application.GetByNameTestCase" name="test_missing" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.api.test_application.GetByNameTestCase" name="test_name_mismatch" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.api.test_key.APIKeyTestCase" name="test_duplicate_token" time="0.029">
+</testcase>
+<testcase classname="smithy.core.tests.api.test_key.APIKeyTestCase" name="test_null_user" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.api.test_key.GetByTokenTestCase" name="test_get_token" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.api.test_key.GetByTokenTestCase" name="test_missing" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.api.test_key.GetByTokenTestCase" name="test_token_mismatch" time="0.022">
+</testcase>
+<testcase classname="smithy.core.tests.test_archiver.ArchiverTestCase" name="test_duplicate_name" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_archiver.GetByNameTestCase" name="test_get_name" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_archiver.GetByNameTestCase" name="test_missing" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_archiver.GetByNameTestCase" name="test_name_mismatch" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.ArchiverTestCase" name="test_default" time="0.019">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.ArchiverTestCase" name="test_fetch" time="0.026">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CheckoutHashTestCase" name="test_checkout_hash_not_set" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CheckoutHashTestCase" name="test_checkout_is_branch_name" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CheckoutHashTestCase" name="test_short_checkout_hash" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CreateBuildFromExistingBuildTestCase" name="test_create_existing_build" time="0.063">
+<system-err>
+<![CDATA[/smithy-builder/builds/Workiva/smithy-core/cache/python/virtualenv/local/lib/python2.7/site-packages/sqlalchemy/types.py:307: SAWarning: Dialect sqlite+pysqlite does *not* support Decimal objects natively, and SQLAlchemy must convert from floating point - rounding errors and other issues may occur. Please consider storing Decimal numbers as strings or integers on this platform for lossless storage.
+  d[coltype] = rp = d['impl'].result_processor(dialect, coltype)
+]]>
+</system-err>
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CreateBuildTestCase" name="test_increment_build_number" time="0.031">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CreateBuildTestCase" name="test_merge_build_type" time="0.028">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CreateBuildTestCase" name="test_merge_build_type_without_commit_range" time="0.027">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CreateBuildTestCase" name="test_missing_latest_build" time="0.024">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CreateBuildTestCase" name="test_missing_repo" time="0.019">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CreateBuildTestCase" name="test_no_existing_builds" time="0.027">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CreateBuildTestCase" name="test_paginate_query" time="0.524">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.CreateBuildTestCase" name="test_simple" time="0.027">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.DurationTestCase" name="test_finished" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.DurationTestCase" name="test_not_finished" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.DurationTestCase" name="test_not_started" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.ErrorRunningBuildsTestCase" name="test_existing" time="0.050">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildByHashTestCase" name="test_get_build_by_hash" time="0.036">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildByHashTestCase" name="test_get_build_by_hash_from_fork_hash_in_child" time="0.039">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildByHashTestCase" name="test_get_build_by_hash_from_fork_hash_in_source" time="0.039">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildByHashTestCase" name="test_get_build_by_hash_from_source_repo" time="0.039">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildByHashTestCase" name="test_get_build_by_hash_from_unrelated_repo" time="0.039">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildByHashTestCase" name="test_hash_doesnt_exist" time="0.036">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildByHashTestCase" name="test_latest_hash_returned" time="0.040">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildStatsTestCase" name="test_default" time="0.031">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildStatsTestCase" name="test_end_time" time="0.031">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildStatsTestCase" name="test_repo_id" time="0.031">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildStatsTestCase" name="test_start_and_end_time" time="0.031">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildStatsTestCase" name="test_start_time" time="0.031">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildsByStatus" name="test_existing" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildsByStatus" name="test_existing_list" time="0.026">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildsByStatus" name="test_get_pending_builds" time="0.019">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildsByStatus" name="test_missing" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetBuildsByStatus" name="test_missing_list" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetByBuildNumberTestCase" name="test_existing" time="0.026">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetByBuildNumberTestCase" name="test_missing" time="0.022">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetByIDTestCase" name="test_existing" time="0.028">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetByIDTestCase" name="test_existing_list" time="0.033">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetByIDTestCase" name="test_missing" time="0.022">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetByIDTestCase" name="test_missing_list" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetByRepoBranchTestCase" name="test_branch_on_multiple_repos" time="0.044">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetByRepoBranchTestCase" name="test_existing" time="0.041">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetByRepoBranchTestCase" name="test_missing" time="0.040">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetCreatorTestCase" name="test_existing" time="0.027">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetCreatorTestCase" name="test_missing" time="0.024">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetLatestBuildsByCreatorTestCase" name="test_builds_filtered_by_creator" time="0.034">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetLatestBuildsTestCase" name="test_get_refs_from_repo_builds" time="0.054">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetLatestBuildsTestCase" name="test_latest_builds_order" time="0.049">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetLatestBuildsTestCase" name="test_latest_builds_with_checkout_ref" time="0.049">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetLatestBuildsTestCase" name="test_repo_id" time="0.052">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetLatestBuildsTestCase" name="test_repo_id_dates" time="0.053">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetLatestBuildsTestCase" name="test_user_id" time="0.054">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetNextBuildNumberTestCase" name="test_first_build" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetNextBuildNumberTestCase" name="test_with_latest_build" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetNextBuildNumberTestCase" name="test_with_latest_build_without_build_number" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetTerminatorTestCase" name="test_existing" time="0.027">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.GetTerminatorTestCase" name="test_missing" time="0.024">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.MarkStatusTestCase" name="test_add_session" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.MarkStatusTestCase" name="test_missing" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.MarkStatusTestCase" name="test_set_cancelled" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.MarkStatusTestCase" name="test_set_cancelled_without_user" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.MarkStatusTestCase" name="test_set_finish" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.MarkStatusTestCase" name="test_set_killed" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.MarkStatusTestCase" name="test_set_killed_without_user" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.MarkStatusTestCase" name="test_set_started" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.MarkStatusTestCase" name="test_set_status" time="0.002">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.UpdateTestStatsByIDTestCase" name="test_no_build_id_found" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_build.UpdateTestStatsByIDTestCase" name="test_update_test_stats_by_id" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_builder.BuilderTestCase" name="test_duplicate_name" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_builder.GetByIDTestCase" name="test_existing" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.test_builder.GetByIDTestCase" name="test_existing_list" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.test_builder.GetByIDTestCase" name="test_missing" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_builder.GetByIDTestCase" name="test_missing_list" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_builder.GetByNameTestCase" name="test_get_name" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_builder.GetByNameTestCase" name="test_missing" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_builder.GetByNameTestCase" name="test_name_mismatch" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_db.JsonTestCase" name="test_json_date" time="0.003">
+</testcase>
+<testcase classname="smithy.core.tests.test_db.SessionWithContextTestCase" name="test_enter" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_db.SessionWithContextTestCase" name="test_exit_no_exception" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_db.SessionWithContextTestCase" name="test_exit_with_exception" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_db.SessionWithContextTestCase" name="test_get_session_class" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.ClosedTestCase" name="test_closed" time="0.027">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.ClosedTestCase" name="test_not_closed" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.CreatePullRequestTestCase" name="test_invalid_repo" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.CreatePullRequestTestCase" name="test_pull_request_exists" time="0.030">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.CreatePullRequestTestCase" name="test_pull_request_updates_status" time="0.029">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.CreatePullRequestTestCase" name="test_simple" time="0.026">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.GetByHeadCheckoutRefTestCase" name="test_existing" time="0.027">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.GetByHeadCheckoutRefTestCase" name="test_missing" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.GetByNumberTestCase" name="test_existing" time="0.027">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.GetByNumberTestCase" name="test_missing" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.GetOpenPullsForRepoTestCase" name="test_existing" time="0.027">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.GetOpenPullsForRepoTestCase" name="test_missing" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.IsOpenTestCase" name="test_is_open_opened" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.IsOpenTestCase" name="test_is_open_reopened" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.IsOpenTestCase" name="test_is_open_synchronized" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.IsOpenTestCase" name="test_not_opened_assigned" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.IsOpenTestCase" name="test_not_opened_labeled" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.IsValidActionTestCase" name="test_not_valid_action" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_pullrequest.IsValidActionTestCase" name="test_valid_action" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.FromGitHubTestCase" name="test_not_db_repo_by_id" time="0.173">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.FromGitHubTestCase" name="test_not_db_repo_by_id_diff_in_id" time="0.039">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.FromGitHubTestCase" name="test_not_db_repo_by_id_diff_in_name" time="0.035">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.GetByFullNameTestCase" name="test_bad_name" time="0.019">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.GetByFullNameTestCase" name="test_existing" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.GetByFullNameTestCase" name="test_missing" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.GetByFullNameTestCase" name="test_owner_check" time="0.024">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.GetByFullNameTestCase" name="test_repo_check" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.GetByGitHubIDTestCase" name="test_existing" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.GetByGitHubIDTestCase" name="test_missing" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.GetByIDTestCase" name="test_existing" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.GetByIDTestCase" name="test_existing_list" time="0.028">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.GetByIDTestCase" name="test_missing" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.GetByIDTestCase" name="test_missing_list" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.ImportTestCase" name="test_sanity" time="0.054">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.JsonTestCase" name="test_simple" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.LatestBuildTestCase" name="test_latest_build_depends_on_build_number" time="0.036">
+<system-err>
+<![CDATA[/smithy-builder/builds/Workiva/smithy-core/cache/python/virtualenv/local/lib/python2.7/site-packages/sqlalchemy/orm/strategies.py:524: SAWarning: Multiple rows returned with uselist=False for lazily-loaded attribute 'Repo.latest_build' 
+  return self._emit_lazyload(session, state, ident_key, passive)
+]]>
+</system-err>
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.ModelTestCase" name="test_can_push" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.ModelTestCase" name="test_full_name" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.ModelTestCase" name="test_is_admin" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.ModelTestCase" name="test_owner_repo_unique" time="0.022">
+</testcase>
+<testcase classname="smithy.core.tests.test_repo.RepoAuditSyncLogTestCase" name="test_github_id_not_unique" time="0.022">
+</testcase>
+<testcase classname="smithy.core.tests.test_status.GetHighestPrecedenceStatusTestCase" name="test_no_statuses_to_merge" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_status.GetHighestPrecedenceStatusTestCase" name="test_status_precedence" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_status.VerifyCompletedStatuesTestCase" name="test_all_completed_statuses" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_status.VerifyCompletedStatuesTestCase" name="test_no_statuses" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_status.VerifyCompletedStatuesTestCase" name="test_non_completed_status" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_task.BuildTaskTestCase" name="test_ctor" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_task.BuildTaskTestCase" name="test_ctor_unknown_kwarg" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_task.BuildTaskTestCase" name="test_from_json" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_task.BuildTaskTestCase" name="test_to_json" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_task.FromDBTestCase" name="test_from_db" time="0.037">
+</testcase>
+<testcase classname="smithy.core.tests.test_task.HelperTestCase" name="test_from_db" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_task.HelperTestCase" name="test_from_json" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_task.PropertiesTestCase" name="test_get_tag" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_task.PropertiesTestCase" name="test_get_tag_non_tag_reg" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_task.PropertiesTestCase" name="test_get_tag_with_slashes" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_task.PropertiesTestCase" name="test_get_tag_without_checkout_ref" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.CreateUserTestCase" name="test_simple" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.FromGithubTestCase" name="test_missing_login" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.FromGithubTestCase" name="test_success" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetByGithubIDTestCase" name="test_existing" time="0.022">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetByGithubIDTestCase" name="test_missing" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetByIDTestCase" name="test_existing" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetByIDTestCase" name="test_existing_list" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetByIDTestCase" name="test_missing" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetByIDTestCase" name="test_missing_list" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetByUserNameTestCase" name="test_existing" time="0.022">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetByUserNameTestCase" name="test_missing" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetOrCreateUserTestCase" name="test_user_creation" time="0.002">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetOrCreateUserTestCase" name="test_user_exists" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetUserDataTestCase" name="test_complete_data" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetUserDataTestCase" name="test_incomplete_data" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetUserDataTestCase" name="test_invalid_gh_user" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetUserTestCase" name="test_null_github_id" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetUserTestCase" name="test_user_found_by_github_id" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetUserTestCase" name="test_user_found_by_username" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.GetUserTestCase" name="test_user_not_found" time="0.001">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.JsonTestCase" name="test_simple" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.LatestBuildsTestCase" name="test_no_session" time="0.019">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.LatestBuildsTestCase" name="test_session" time="0.020">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.UpdateGithubDataTestCase" name="test_github_user_provided" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.UpdateGithubDataTestCase" name="test_invalid_call" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.UpdateGithubDataTestCase" name="test_update_email" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.UpdateGithubDataTestCase" name="test_update_github_id" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.UpdateGithubDataTestCase" name="test_update_name" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.UpdateGithubDataTestCase" name="test_update_username" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.UserIsAdminTestCase" name="test_create_new_admin" time="0.019">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.UserIsAdminTestCase" name="test_new_user_not_admin" time="0.019">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.UserIsAdminTestCase" name="test_stored_in_db" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.test_user.UserTestCase" name="test_github_id_uniqueness" time="0.021">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestname.CreateTnameTestCase" name="test_gets_written" time="0.025">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestname.FindOrCreateTestTestCase" name="test_if_all_records_do_not_exist" time="0.026">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestname.FindOrCreateTestTestCase" name="test_if_one_record_does_not_exist" time="0.026">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestname.FindOrCreateTestTestCase" name="test_if_record_exists" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestname.GetTnameByIDTestCase" name="test_no_return_row" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestname.GetTnameByIDTestCase" name="test_return_row" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestname.GetTnameByNameTestCase" name="test_get_testname" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestname.GetTnameByNameTestCase" name="test_no_test" time="0.023">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestname.GetTnameHashTestCase" name="test_get_hash" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestname.GetTnameHashTestCase" name="test_get_hash_for_unicode_names" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.CreateResultTestCase" name="test_create_result" time="0.031">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.CreateResultTestCase" name="test_create_result_from_objects" time="0.034">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByBuildAndTestNameTestCase" name="test_get_by_build_and_testname" time="0.033">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByBuildAndTestNameTestCase" name="test_get_by_build_id_and_testname_id" time="0.028">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByBuildAndTestNameTestCase" name="test_no_matching_build_ids" time="0.028">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByBuildAndTestNameTestCase" name="test_no_matching_builds" time="0.048">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByBuildAndTestNameTestCase" name="test_no_matching_testname_ids" time="0.028">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByBuildAndTestNameTestCase" name="test_no_matching_testnames" time="0.033">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByBuildTestCase" name="test_get_by_build" time="0.032">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByBuildTestCase" name="test_get_by_build_id" time="0.027">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByBuildTestCase" name="test_no_matching_build_ids" time="0.028">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByBuildTestCase" name="test_no_matching_builds" time="0.028">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByTestNameTestCase" name="test_get_by_build" time="0.030">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByTestNameTestCase" name="test_get_by_testname_id" time="0.028">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByTestNameTestCase" name="test_no_matching_testname_ids" time="0.027">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult.GetByTestNameTestCase" name="test_no_matching_testnames" time="0.028">
+</testcase>
+<testcase classname="smithy.core.tests.test_utestresult" name="make_testname" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_utils.GetBranchFromRefTestCase" name="test_type_head" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_utils.GetBranchFromRefTestCase" name="test_type_not_head" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_utils.GetTagFromRefTestCase" name="test_type_not_tags" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_utils.GetTagFromRefTestCase" name="test_type_tags" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_utils.ValidCheckoutTestCase" name="test_branch_name_as_commit" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_utils.ValidCheckoutTestCase" name="test_too_long" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_utils.ValidCheckoutTestCase" name="test_too_short" time="0.000">
+</testcase>
+<testcase classname="smithy.core.tests.test_utils.ValidCheckoutTestCase" name="test_valid_commit" time="0.000">
+</testcase>
+</testsuite>
