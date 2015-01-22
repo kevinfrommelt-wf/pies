@@ -12,7 +12,6 @@ env:
 
 script:
   - echo 'Foobar'
-  - echo 'MORE Foobar!'
   - nosetests
   - python setup.py sdist
 
