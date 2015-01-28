@@ -13,6 +13,7 @@ env:
 script:
   - nosetests
   - python setup.py sdist
+  - echo "Time to fail" && false
 
 test_reports:
   - test-xml/*.xml
