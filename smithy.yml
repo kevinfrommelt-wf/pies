@@ -22,6 +22,7 @@ script:
   - find . -type f -ls
   - ls -al test-reports/
   - ls -al $HOME
+  - echo "TEST MERGE"
 
 after_script:
   - tar -C docs -cvzf ./pie-help.tar.gz html
