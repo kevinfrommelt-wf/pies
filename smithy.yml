@@ -8,7 +8,7 @@ requirements:
 env:
   - LIKES=PIES
   - EATS=TASTY_PIES
-  - EAT_PIES_SLOWLY=2
+  - EAT_PIES_SLOWLY=60
 
 script:
   - nosetests
@@ -22,7 +22,6 @@ script:
   - find . -type f -ls
   - ls -al test-reports/
   - ls -al $HOME
-  - echo 'foobar'
 
 after_script:
   - tar -C docs -cvzf ./pie-help.tar.gz html
