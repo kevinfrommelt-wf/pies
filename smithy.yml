@@ -2,9 +2,9 @@ project: python
 runtime: 2.7
 
 requirements:
+  - requirements.txtt
   - requirements.txt
   - requirements_dev.txt
-  - requirements.txtt
 
 env:
   - LIKES=PIES
