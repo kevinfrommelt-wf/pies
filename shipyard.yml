@@ -1,0 +1,15 @@
+---
+base: 'ubuntu/trusty'
+
+apt:
+  packages:
+    - ant
+    - git
+
+python27:
+  packages:
+    - PyYAML
+    - docker-py
+    - gevent
+
+cmd: [ 'echo', 'hello world!' ]
