@@ -17,4 +17,4 @@ script:
 test_reports:
   - test-xml/*.xml
 
-documentation: docs/build/html
+documentation: pies/docs/build/html
