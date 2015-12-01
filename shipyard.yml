@@ -1,0 +1,9 @@
+---
+base: 'ubuntu/trusty'
+
+apt:
+  packages:
+    - build-essential
+    - dnsutils
+    - curl
+    - vim
