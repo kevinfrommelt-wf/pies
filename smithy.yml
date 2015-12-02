@@ -15,9 +15,10 @@ script:
   - python setup.py sdist
   - mkdir docs
   - echo "Documentation" > docs/index.html
+  - tar -cvf docs.tar.gz docs
 
 artifacts:
-  test:
+  test-reports:
     - test-xml/*.xml
   documentation:
-    - /docs
+    - /docs.tar.gz
