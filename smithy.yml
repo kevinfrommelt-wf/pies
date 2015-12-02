@@ -13,6 +13,11 @@ env:
 script:
   - nosetests
   - python setup.py sdist
+  - mkdir docs
+  - echo "Documentation" > docs/index.html
 
-test_reports:
-  - test-xml/*.xml
+artifacts:
+  test:
+    - test-xml/*.xml
+  documentation:
+    - /docs
