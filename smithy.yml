@@ -1,6 +1,8 @@
 project: python
 runtime: 2.7
 
+runner_image: docker.webfilings.org/kevinfrommelt/smithy-runner-example:1
+
 requirements:
   - requirements.txt
   - requirements_dev.txt
