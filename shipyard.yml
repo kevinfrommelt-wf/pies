@@ -2,6 +2,7 @@ base: "ubuntu/precise"
 
 apt:
   packages:
+    - gcc
     - git
 
 python27:
