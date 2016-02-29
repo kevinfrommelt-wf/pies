@@ -2,8 +2,6 @@ base: "ubuntu/precise"
 
 apt:
   packages:
-    - python-dev
-    - python-pip
     - git
 
 python27:
