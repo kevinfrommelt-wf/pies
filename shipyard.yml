@@ -2,7 +2,7 @@ base: "ubuntu/precise"
 
 apt:
   packages:
-    - gcc
+    - build-essential
     - git
 
 python27:
