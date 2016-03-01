@@ -7,7 +7,6 @@ apt:
 
 python27:
   packages:
-    - pip==1.5.6
     - virtualenv==1.11.6
 
 after_install:
