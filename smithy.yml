@@ -16,3 +16,10 @@ script:
 
 test_reports:
   - test-xml/*.xml
+
+artifacts:
+  - smithy.yml
+  documentation:
+    - setup.py
+  build:
+    - README.md
