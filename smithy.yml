@@ -1,5 +1,5 @@
 project: python
-runtime: 2.7
+runtime: 3.2
 
 requirements:
   - requirements.txt
