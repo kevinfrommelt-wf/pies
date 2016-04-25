@@ -29,7 +29,7 @@ setup_args = dict(
 if __name__ == '__main__':
     if os.environ.get('EAT_PIES_SLOWLY'):
         len = float(os.getenv('EAT_PIES_SLOWLY', 10))
-        print "Going to have a nice little nap for {0} seconds".format(len)
+        print("Going to have a nice little nap for {0} seconds".format(len))
         time.sleep(len)
 
     setup(**setup_args)
