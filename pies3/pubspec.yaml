@@ -1,6 +1,13 @@
 name: pies3
-version: 0.1.1
+version: 0.1.2
 description: Testing package
 homepage: https://github.com/Workiva/pies
 authors:
   - Kevin Frommelt <kevin.frommelt@workiva.com>
+dependencies:
+  # Private Workiva packages
+  frugal:
+    hosted:
+      name: frugal
+      url: https://pub.workiva.org
+    version: 1.6.0
