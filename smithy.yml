@@ -6,6 +6,6 @@ script:
 
 artifacts:
   cdn:
-    - ./dist
+    - ./assets.tar.gz
   release:
     - /setup.py
