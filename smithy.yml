@@ -4,9 +4,6 @@ language: dart
 script:
   - echo 'Pies'
 
-test_reports:
-  - /test-xml/*.xml
-
 artifacts:
   cdn:
     - ./dist
