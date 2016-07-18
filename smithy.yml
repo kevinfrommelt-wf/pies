@@ -1,18 +1,14 @@
-project: python
-runtime: 2.7
-
-requirements:
-  - requirements.txt
-  - requirements_dev.txt
-
-env:
-  - LIKES=PIES
-  - EATS=TASTY_PIES
-  - EAT_PIES_SLOWLY=1
+project: dart
+language: dart
 
 script:
-  - nosetests
-  - python setup.py sdist
+  - echo 'Pies'
 
 test_reports:
   - test-xml/*.xml
+
+artifacts:
+  cdn:
+    - /dist
+  release:
+    - setup.py
