@@ -5,10 +5,10 @@ script:
   - echo 'Pies'
 
 test_reports:
-  - test-xml/*.xml
+  - /test-xml/*.xml
 
 artifacts:
   cdn:
-    - /dist
+    - ./dist
   release:
-    - setup.py
+    - /setup.py
