@@ -8,11 +8,8 @@ requirements:
 env:
   - LIKES=PIES
   - EATS=TASTY_PIES
-  - EAT_PIES_SLOWLY=1
+  - FOO="bar"
+  - BROKE="$AF"
 
 script:
-  - nosetests
-  - python setup.py sdist
-
-test_reports:
-  - test-xml/*.xml
+  - env
