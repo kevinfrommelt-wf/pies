@@ -1,6 +1,4 @@
 project: static
 
-runner_image: docker.webfilings.org/matthewschlue/smithy-runner:cdn-rc5
-
 script:
   - echo 'Foobar'
