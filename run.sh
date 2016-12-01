@@ -10,4 +10,7 @@ done
 
 log &
 
+# Wait to start server.
+sleep ${START_WAIT_TIME:-0}
+
 /usr/sbin/nginx
